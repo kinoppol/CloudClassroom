@@ -13,7 +13,7 @@ $fname = $_SESSION[ "fname" ];
 	<div class="row">
 		<div class="col-md-5">
 
-			<h3> Welcome Faculty : <a href="welcomefaculty.php"><span style="color:#FF0004"> <?php echo $fname; ?></span></a></h3>
+			<h3> ยินดีต้อนรับผู้สอน : <a href="welcomefaculty.php"><span style="color:#FF0004"> <?php echo $fname; ?></span></a></h3>
 			<?php
 			include( 'database.php' );
 			$varid = $_REQUEST[ 'myfid' ];
@@ -24,7 +24,7 @@ $fname = $_SESSION[ "fname" ];
 			while ( $row = mysqli_fetch_array( $result ) ) {
 				?>
 			<fieldset>
-				<legend>My Details</legend>
+				<legend>ข้อมูลของฉัน</legend>
 				<form action="" method="POST" name="update">
 					<table class="table table-hover">
 
@@ -37,53 +37,53 @@ $fname = $_SESSION[ "fname" ];
 
 						</tr>
 						<tr>
-							<td><strong>Name :</strong> </td>
+							<td><strong>ชื่อ :</strong> </td>
 							<td>
 								<?php echo $row['FName']; ?>
 							</td>
 						</tr>
 						</tr>
 						<tr>
-							<td><strong>Father Name :</strong> </td>
+							<td><strong>สกุล :</strong> </td>
 							<td>
 								<?PHP echo $row['FaName'];?>
 							</td>
 						</tr>
 						<tr>
-							<td><strong>Address : </strong>
+							<td><strong>ที่อยู่ : </strong>
 							</td>
 							<td>
 								<?PHP echo $row['Addrs'];?> </td>
 						</tr>
 						<tr>
-							<td><strong>Gender :</strong>
+							<td><strong>เพศ :</strong>
 							</td>
 							<td>
 								<?PHP echo $row['Gender'];?>
 							</td>
 						</tr>
 						<tr>
-							<td><strong>Data Of Joining :</strong>
+							<td><strong>วันเกิด :</strong>
 							</td>
 							<td>
 								<?PHP echo $row['JDate'];?>
 							</td>
 						</tr>
 						<tr>
-							<td><strong>City : </strong>
+							<td><strong>เมือง : </strong>
 							</td>
 							<td>
 								<?PHP echo $row['City'];?>
 							</td>
 						</tr>
 						<tr>
-							<td><strong>Phone Number :</strong>
+							<td><strong>หมายเลขโทรศัพท์ :</strong>
 							</td>
 							<td>
 								<?PHP echo $row['PhNo'];?> </td>
 						</tr>
 						<tr>
-							<td><strong>Password :</strong> </td>
+							<td><strong>รหัสผ่าน :</strong> </td>
 							<td>
 								<?PHP echo $row['Pass'];?>
 							</td>

@@ -42,37 +42,37 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="index">Cloud Classrooms</a>
+                <a class="navbar-brand" href="index">E-Classroom</a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li>
-                        <a href="about">About</a>
+                        <a href="about">เกี่ยวกับเรา</a>
                     </li>
 					<li>
-                        <a href="registrationform">Registration</a>
+                        <a href="registrationform">ลงทะเบียน</a>
                     </li>
                      <li>
-                        <a href="takeassessment">Take Assessment</a>
+                        <a href="takeassessment">ส่งงาน</a>
                     </li>
                     <li>
-                        <a href="viewresult">Result</a>
+                        <a href="viewresult">รายงานผลการเรียน</a>
                     </li>
   					<li>
-                        <a href="postquerypublic">Post Qurey</a>
+                        <a href="postquerypublic">ขอลงทะเบียนเรียน</a>
                     </li>
 					<li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Login <b class="caret"></b></a>
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">เข้าสู่ห้องเรียน <b class="caret"></b></a>
                         <ul class="dropdown-menu">
                             <li>
-                                <a href="studentlogin">Student Login</a>
+                                <a href="studentlogin">ผู้เรียน</a>
                             </li>
                             <li>
-                                <a href="facultylogin">Faculty Login</a>
+                                <a href="facultylogin">ผู้สอน</a>
                             </li>
                             <li>
-                                <a href="adminlogin">Admin Login</a>
+                                <a href="adminlogin">ผู้ดูแลระบบ</a>
                             </li>
                         </ul>
                     </li> 
